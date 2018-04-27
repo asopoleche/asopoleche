@@ -142,7 +142,7 @@ img {
 	width: 		auto;
 	height: 	980px;
 	margin-top: 		20px;
-	margin-right: 		300px;
+	margin-right: 		auto;
 	
 
 }
@@ -150,9 +150,9 @@ img {
 iframe{
 
 	
-	margin-left: 	500px;
+	margin-left: 	50px;
 	height: 800px;
-	margin-right:300px;	
+	margin-right: auto;	
 	
 
 
