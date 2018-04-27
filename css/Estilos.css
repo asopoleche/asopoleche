@@ -57,7 +57,7 @@ body {
 }
 
 /* Style the active/current link*/
-.header a.informedegestion {
+.header a.infgestion {
   background-color: dodgerblue;
   color: white;
 }
@@ -137,10 +137,10 @@ img {
 }
 
 
-#informedegestion{
+#infgestion{
 	
-	width: 				auto;
-	height: 			980px;
+	width: 		auto;
+	height: 	980px;
 	margin-top: 		20px;
 	margin-right: 		auto;
 	
