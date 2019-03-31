@@ -14,12 +14,25 @@ body {
 	margin: 			auto;
 	margin-top: 0px;
 	background:			#f1f1f1;
+}
 
-
+#contenedorinf {
+	width: 				auto;  
+	margin: 			auto;
+	margin-top: 0px;
+	background:			#f1f1f1;
+	display: 	inline;
 }
 
 /* Style the header with a grey background and some padding */
 .header {
+  overflow: hidden;
+  background: #548235;
+  padding: 20px 10px;
+}
+
+
+.headerinf {
   overflow: hidden;
   background: #548235;
   padding: 20px 10px;
@@ -187,6 +200,19 @@ footer{
 	
 }
 
+.footerinf{
+
+	max-width: 500px;	
+	background: 		#548235;
+	color: white;
+	margin-top: 		30px;
+	height: 			auto;
+	text-align: 		left;
+	position: absolute;
+	display: 	inline;	
+	float: 	left;
+	
+}
 
 
 
