@@ -16,12 +16,13 @@ body {
 	background:			#f1f1f1;
 }
 
-#contenedorinf {
+#contenedorinf{
 	width: 				auto;  
 	margin: 			auto;
 	margin-top: 0px;
 	background:			#f1f1f1;
 	display: 	inline;
+    margin-top: 0px;
 }
 
 /* Style the header with a grey background and some padding */
@@ -51,15 +52,42 @@ body {
 
 }
 
+.header-right1{
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 28px;
+  border-radius: 4px;
+    background-color: dodgerblue;
+  
+}
+
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-.header a.logo {
+
+.header a.Logo {
   font-size: 25px;
   font-weight: bold;
+     
+    
+}
+.logo1{
+    float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 30px;
+  border-radius: 4px;
 
+    
 }
 
 /* Change the background color on mouse-over */
-.header a:hover {
+.header a.hover {
   background-color: #ddd;
   color: black;
 }
@@ -69,8 +97,8 @@ body {
   color: white;
 }
 
-/* Style the active/current link*/
-.header a.infgestion {
+
+.header a.Informedegestion {
   background-color: dodgerblue;
   color: white;
 }
@@ -91,9 +119,23 @@ body {
 }
 
 
-/* Float the link section to the right */
+
 .header-right {
   float: right;
+background-color: dodgerblue;
+    text-align: center;
+    color: white;
+ padding: 12px;
+    text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+    margin-right: 4px;
+    
+   
+    
+    
+    
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
@@ -105,6 +147,7 @@ body {
   }
   .header-right {
     float: none;
+    
   }
 }
 
@@ -150,7 +193,7 @@ img {
 }
 
 
-#infgestion{
+.Informedegestion{
 	
 	width: 		auto;
 	height: 	980px;
@@ -165,6 +208,7 @@ iframe{
 	
 	margin-left: 	auto;
 	height: 800px;
+    width: 100%;
 	margin-right: auto;	
 	
 
@@ -316,7 +360,7 @@ section h2 {
 }
 
 /* Change the background color on mouse-over */
-.footer a:hover {
+.footer a.hover {
   background-color: #ddd;
   color: black;
 }
